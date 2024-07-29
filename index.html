@@ -3,11 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>Change Calculator</title>
+    <link rel="stylesheet" href="stylepage.css">
   </head>
   <body>
-    <!-- Write your markup here -->
-
-    <!-- Don't forget to add your <script> tag here -->
-
+      <h1 id="header">Change Calculator</h1>
+    <section id="inputs">
+      <input id="amount-due" type="text" placeholder="Amount Due" size ; />
+      <input id="amount-received" type="text" placeholder="Amount Recieved" size ;/>
+    </section>
+    <section id="dollars">
+    <p id="dollars-output"></p>
+    </section>
+    <section id="coins">
+      <p id="quarters-output"></p>
+      <p id="dimes-output"></p>
+      <p id="nickels-output"></p>
+      <p id="pennies-output"></p>
+    </section>
+    <section id="press">
+    <button id="calculate-change">Calculate change</button>
+    </section>
+    <script src="main.js" charset="utf-8"></script>
+    <div id="startMsg">
+      <p>Welcome, may I help you get your change sorted.</p>
+    </div>
+    <script type="text/javascript">
+      setTimeout(()=>{
+        const text=document.getElementById("startMsg");
+        text.style.display='none';
+      },4000);
+    </script>
   </body>
 </html>

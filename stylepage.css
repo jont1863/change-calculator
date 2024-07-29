@@ -1,0 +1,47 @@
+body{
+    font-size: 30px;
+    background-image:url(Cashier.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: 550px;
+    background-color: rgb(248, 248, 248);
+
+}
+
+#header{
+    font-size: 60px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+#inputs{
+  display: flex; 
+  justify-content: center;
+  
+}
+
+#dollars{
+    display: flex;
+    justify-content: center;
+}
+
+#coins{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#press{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#startMsg{
+    display: flex;
+    justify-content: center;
+}
+/*end of base*/
+.container{
+    display: flex;
+}
